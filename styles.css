@@ -1,0 +1,98 @@
+body{
+  background-color: rosybrown;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+/* Table css */
+table {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+.table.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .button{
+    border-radius: 5px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+  
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .hover-red{
+    font-family: 'Roboto', sans-serif;
+  }
+  .hover-red:hover{
+    color:#fff!important;background-color:#f44336!important
+  }
+  .aqua-but{
+    color:#000!important;background-color:#00ffff!important
+  }
+
+
+/* form css*/  
+.form{
+  max-width: 50%;
+  background-color: #ccc;
+  border-radius: 7px;
+}
+
+/* Other */
+.link{
+  text-decoration: none;
+}
+
+.caption{
+  text-align: center;
+}
+
+@media only screen and (max-width: 830px){
+  table {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    height: 100px;
+  }
+  .form{
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 5px;
+  }
+}

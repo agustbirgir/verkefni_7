@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="canonical" href="https://scuffed.store/">
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0044/3075/8003/files/favi-animated-2_32x32.gif?v=1577945472" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>verkefni 7</title>
+</head>
+<body>
+    <a href="../verkefni_7/index.html">til baka</a>
+    <form action="#" method="GET">
+        <caption class="caption">Hér getur þú sent link til okkar </caption>
+        <fieldset class="form">
+            <label>
+                Name
+                <input type="text" name="nafn" placeholder="Full name" required="" autofocus="" title="Vinsamlegast skráið Name" /> 
+            </label>
+            <br />
+            <label>
+                phonenumber
+                <input type="text" name="sími" placeholder="123 4567" title="Vinsamlegast skráið aðeins 7 tölustafi" required="" pattern="\d{3}(?:[\-\s]?)\d{4}" />
+            </label>  
+            <br /> 
+            <br /> 
+            <label>
+                Email
+                <input type="email" name="tölvupóstur" placeholder="Email address" required="" />
+                </label>
+            <br />
+            <label>
+                Date
+                <input type="date" name="dagsetning" required="" />
+            </label>
+            <br />
+            <label for="url">Enter a link for us</label>
+
+                <input type="url" name="url" id="url"
+                    placeholder="https://example.com"
+                    pattern="https://.*" size="30"
+                    required>
+            <br />
+            <br />
+            <label for="árgerð">
+                    you made or someone else:
+                    <input type="checkbox" name="creator 1" value="Mine" /> Mine, 
+                    <input type="checkbox" name="creator 2" value="someone" /> Someone else. 
+            </label> 
+            <br />
+            <label>
+            <br />
+                Athugasemdir
+                <textarea rows="4" name="Athugasemdir"></textarea>
+            </label>
+            <input type="submit" value="Send link">
+        </fieldset>
+    </form>
+</body>
+</html>
